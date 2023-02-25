@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "Impact";
+  src: local("impact"),
+  url("../fonts/impact.ttf") format("truetype");
+}
+
+.image {
+  width: 477px;
+  height: 268px;
+  border-radius: 2px;
+  position: relative;
+  margin-top: 36px;
+}
+
+.image__top-text,
+.image__bottom-text {
+  max-width: 400px;
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-text-stroke: 1px black;
+  color: #FFFFFF;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 39.03px;
+  font-family: "Impact";
+}
+
+.image__top-text {
+  top: 16px;
+}
+
+.image__bottom-text {
+  bottom: 16px;
+}
